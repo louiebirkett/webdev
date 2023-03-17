@@ -1,0 +1,587 @@
+/*grid--------------------------------------------------------------------- */
+
+.title{
+/*	display: grid;*/
+	/*grid-template-rows: 100%;*/
+/*	max-width: 100%;*/
+	/*height: 25em;*/
+}
+
+.contents{
+	display: inline;
+	max-width: 100%;
+	margin: 100px;
+}
+.contents a{
+	color: #EEE5E9;
+	text-decoration: underline;
+	padding: 10px;
+	border-radius: 20px;
+}
+.contents a:hover{
+	background-color: #3c3a47;
+}
+
+
+.weekTitle #week1 b{
+}
+.weekTitleFont{
+	font-size: 1.5em;
+}
+.published{
+	display: inline;
+/*	max-width: 100%;*/
+	height: 5em;
+	
+}
+
+
+
+.weekText li{
+	padding: 20px;
+	text-align: justify;
+}
+
+.weekText{
+/*	text-align: just;*/
+}
+
+
+
+.posts img{
+	max-width:100%;
+/*	width: auto;*/
+	height: auto;
+}
+
+
+
+#week3ValidationText{
+	
+	padding-top: 150px;
+}
+
+#week3ValidationText li{
+	padding: 20px;
+}
+
+.menu	{
+	padding: 10px;
+	font-size: 20px;
+}
+.menu li:active{
+	background-color: #3c3a47;
+	border: solid;
+	border-width: 1px;
+}
+.menu li:hover{
+	background-color: #3c3a47;
+	border-radius: 20px;
+}
+.menu a{
+	color: #EEE5E9;
+}
+#cssNavigationScreenshot{
+	border: solid white;
+	border-width: 1px;
+
+}
+#cssWeeklypostScreenshot{
+	border: solid white;
+	border-width: 1px;
+}
+
+
+
+
+
+/*sections------------------------------------------------------------------- */
+body {
+	background-color: #222129;
+	font-family: georgia, serif;
+	color: #EEE5E9;
+	text-align: center;
+	list-style-position: inside;
+	font-size: 16px;
+	line-height: 1.5em;
+/*	max-width: 100%;*/
+	margin: 10px;
+}
+
+#cover{
+	animation-name: slidein;
+	animation-duration: 2s;
+}
+
+article	{
+}
+aside	{
+}
+footer{
+	padding: 25px;
+	text-align: center;
+}
+
+header {
+}
+
+nav li{
+	list-style: none;
+	display: inline;
+	padding: 10px;
+	margin: 0;
+	max-width: 100%;
+}
+nav li a {
+}
+
+
+/*headings------------------------------------------------------------------- */
+
+
+h2	{
+	font-size: 30px;
+
+}
+h3 	{
+	padding: 20px;
+	margin: auto;
+}
+/*grouping------------------------------------------------------------------- */
+
+
+p{
+	/*border-style: solid;*/
+/*	border-color: red;
+	max-width: 100%;
+	padding: 20px;
+	margin: auto;*/
+}
+/*#firstpost {
+	animation-name: slidein;
+	animation-duration: 4s;
+	border-style: solid;
+	border-color: red, ;
+
+	width: 100%;
+	height: 1100px;
+	padding: 25px;
+	margin: 0px;*/
+}
+#img1{
+	position: relative;
+	border-style: dotted;
+	/*height: 400px;
+	width: 700px;*/
+	left: 250px;
+	bottom: 320px;
+	
+}
+/*#img1caption{
+	position: relative;
+	bottom: 315px;
+	right: -275px;
+	/*border-style: solid;*/
+}
+#img2{
+	position: relative;
+	border-style: dotted;
+/*	height: 400px;
+	width: 700px;*/
+	left: 250px;
+	bottom: 300px;
+}
+#img2caption{
+	position: relative;
+	bottom: 300px;
+	right: -275px;
+}
+#num4{
+	position: relative;
+	top: 450px;
+}
+
+#firstpost ol{
+	/*border-style: solid;*/
+	text-align: left;
+/*	width: 500px;*/
+	padding: 0;
+	margin-left: 100px;
+	margin-top: 10px;	
+}
+
+#validationscreenshot2{
+	width: auto;
+	height: auto;
+}
+
+#week3_spacing{
+	padding-top: 50px;
+}
+
+#week3Text li{
+	padding: 50px;
+}
+
+#contactcode{
+	width: 75%;
+}
+#contactcss{
+	width: 75%;
+}
+#contactmobile{
+	width: 75%;
+	border: solid white 1px;
+}
+
+
+
+#credit p{
+	width: 100%;
+	text-align: center;
+}
+blockquote	{
+}
+table   {
+}
+/*lists---------------------------------------------------------------------- */
+ul	{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+li	{
+}
+ol	{
+}
+dl	{
+}
+dt	{
+}
+dd	{
+}
+/*text------------------------------------------------------------------------ */
+em	{
+}
+strong	{
+}
+small	{
+}
+cite	{
+}
+time	{
+}
+/*image----------------------------------------------------------------------- */
+
+figcaption	{
+}
+img	{
+/*	max-width: 100%;*/
+}
+/*anchors--------------------------------------------------------------------- */
+a:link	{
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+}
+a:active {
+}
+
+
+.references a{
+	text-decoration: underline;
+	color: inherit;
+}
+
+/*--------------------------------------------------------------------- */
+/*--------------------------------------------------------------------- */
+/*TUTORIAL WEBPAGE--------------------------------------------------------------------- */
+/*--------------------------------------------------------------------- */
+/*--------------------------------------------------------------------- */
+.titleContainer{
+	line-height: 2.5em;
+	margin: 5em;
+	padding: 10px;
+/*	width: 70em;*/
+	border-bottom: solid;
+	border-color: #EEE5E9;
+}
+#titleText{
+	font-size: px;
+
+}
+.StudySkills{
+/*	border: solid red;*/
+	display: block;
+	flex-direction: row;
+	justify-content: center;
+}
+.StudySkillsContainer{
+	line-height: 2.5em;
+	margin: 2em;
+	padding: 2em;
+	width: auto;
+/*	border: solid;*/
+	/*border-color: #EEE5E9;
+	border-width: 1px;*/
+	background-color: #2b2b2b;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.articleContainer{
+/*	border: solid red;*/
+	width: 100%;
+	margin: auto;
+	text-align: justify;
+
+}
+.articleContainer h2{
+	text-align: center;
+}
+.articleContainer a{
+	text-decoration: underline;
+	color: inherit;
+}
+#wireframe{
+	width: 50%;
+	margin: auto;
+	display: block;
+}
+
+#tutorial_mobile{
+	width: 20em;
+	height: auto;
+	margin: 10px;
+}
+
+.backToTop{
+	color: inherit;
+	text-decoration: underline;
+}
+#validation img{
+/*	padding: 10px;*/
+}
+.validationContainer{
+	border: solid white 1px;
+}
+
+
+/*--------------------------------------------------------------------- */
+/*--------------------------------------------------------------------- */
+/*CONTACT WEBPAGE--------------------------------------------------------------------- */
+/*--------------------------------------------------------------------- */
+/*--------------------------------------------------------------------- */
+label{
+	display: block;
+	padding-top: 10px;
+}
+fieldset{
+	width: 50%;
+	margin: auto;
+	border-radius: 20px;
+}
+textarea{
+	width: 75%;
+	height: 7em;
+	border-radius: 10px;
+}
+input{
+	border-radius: 10px;
+}
+#submitButton{
+	margin: 10px;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*animations--------------------------------------------------------------------- */
+@keyframes slidein{
+	from{
+		transform: translateY(100%);
+	}
+	to{
+		transform: translateY(0%);
+	}
+}
+
+/*Media Queries--------------------------------------------------------------------- */
+/*MOBILE FIRST*/
+#wrapper{
+	animation-name: slidein;
+	animation-duration: 2s;
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+main{
+/*	display: block;*/
+	max-width: 100%;
+}
+
+
+h1{
+	color: #F26419;
+	font-size: 3em;
+	line-height: 2em ;
+}
+
+.posts{
+	display: block;
+
+}
+#week2text{
+	padding: 0;
+}
+.weekImg{
+	display: block;
+	padding: 20px;
+}
+.weekTitle{
+	display: block;
+	margin: auto;
+}
+.weekText{
+	display: block;
+	max-width: 100%;
+	padding: 20px;
+}
+figure{ 
+	max-width: 100%;
+	margin: auto;
+	padding: 20px;
+}
+ol{
+	padding: 0;
+}
+
+.validationContainer{
+	display: block;
+	max-width: 100%;
+}
+.validationContainer img{
+	max-width: 100%;
+	padding: ;
+}
+
+
+/*LARGER SCREENS*/
+@media screen and (min-width: 768px){
+	#wrapper{
+/*	max-width: 1000px;*/
+  	margin-right: auto;
+  	margin-left: auto;
+  	/*background-color: #FFF;*/
+  	padding-right: 10px;
+  	padding-left: 10px;
+
+  	 display: grid;
+	 grid-gap: 20px;
+	 grid-template-areas:
+	 	"banner"
+	  	"menu"
+	   	"nav"
+	   	"table"
+	   	"main"
+	   	"aside"
+	   	"footer";
+	}
+
+	main{
+		max-width: 100%;
+	}
+
+	h1{
+	color: #F26419;
+	font-size: 6.25em;
+	}
+
+	.posts{
+	justify-content: center;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: 2em 2em;
+/*	max-width: 100%;*/
+	column-gap: 15px;
+	}
+
+	#week2text{
+	padding: 10em 0;
+	}
+
+	.weekImg{
+		display: grid;
+	}
+
+	.weekTitle{
+	display: grid;
+/*	max-width: 100%;*/
+	height: 5em;
+	padding: 20px;
+	}
+
+	.weekText{
+	display: grid;
+/*	max-width: 100%;*/
+	width: 35em;
+	font-size: 1.15em;
+	padding: 20px;
+	}
+
+	figure{
+		margin: auto;
+		padding: 20px;
+	}
+	ol{		
+	}
+
+
+	.titleContainer{
+	line-height: 2.5em;
+	margin: 5em;
+	padding: 0;
+/*	width: 70em;*/
+	border-bottom: solid;
+	border-color: #EEE5E9;
+}
+
+	.StudySkills{
+	/*	border: solid red;*/
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.StudySkillsContainer{
+		line-height: 2.5em;
+		margin: 2em;
+		padding: 2em;
+		width: auto;
+		/*border: solid;
+		border-color: #EEE5E9;
+		border-width: 1px;*/
+		text-align: center;
+	}
+
+	#validation img{
+		padding: 20px;
+	}
+
+}
+
+

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<!-- This comment line needed for bootstrap to work on mobile devices -->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"> <!-- normalize.css makes browsers render the page in a more modern way --> 
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css"> <!--stylesheet.css is the stylesheet for my pages --> 
+	<title>Learning Journal</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div class="title">
+						<header>
+							<h1 id=#top>Learning Journal</h1>
+							<h2>Responsive Websites</h2>
+							<div class="menu">	
+								<nav>
+									<ul id="navButton">
+										<li>Learning Journal</li>
+										<li><a href="tutorial.html">Tutorial</a></li>
+										<li><a href="contact.html">Contact</a></li>
+									</ul> <!--Navigation-->
+								</nav>
+							</div>
+						</header>
+		</div>
+
+		
+			<main>
+				<div class="contents">
+					<h2>Weekly Posts</h2>
+					<article>
+						<header>
+							<h3>Week 1: <a href="#week1">Configuring Journal</a></h3> <!-- Page Anchors -->
+							<h3>Week 2: <a href="#week2">HTML Markup Basics</a></h3>
+							<h3>Week 3: <a href="#week3">Further Validation</a></h3>
+							<h3>Week 4: <a href="#week4">CSS Styling</a></h3>
+							<h3>Week 5: <a href="#week5">Further CSS Styling</a></h3>
+							<h3>Week 6: <a href="#week6">Responsive Webpage</a></h3>
+							<h3>Week 7: <a href="#week7">Tutorial Webpage</a></h3>
+							<h3>Week 8: <a href="#week8">Contact Webpage</a></h3>
+							<h3><a href="#validation"> Validation</a></h3>
+						</header>
+					</article>
+				</div>
+
+
+				<div class="weekTitle">
+							<div id="week1">
+								<div class="weekTitleFont">
+									<b>Week 1 </b>- Configuring Journal
+								</div>
+								<div class="published">
+								Published on <time datetime="2022-10-14"><b>Friday, October 14</b></time>
+								</div> 
+							</div> <!-- publications -->
+						
+				</div>
+
+				<div class="posts">
+					<div class="weekText">
+						This week I began to configure the web pages vital for my Learning Journal. I used a healthy mix of my previous skills of HTML5 along with the lab documents provided to me.
+						<ol>
+							<li>I chose to use Sublime as my Editor</li>
+							<li>I followed the lab documents, which allowed me to set up brighton.domains</li>
+							<li>I managed to create all 3 webpages necessary, linking them all together</li>
+							<li>Lastly, I uploaded my website to brighton.domains and validated my site and my use of HTML using the W3C validator</li>
+						</ol>
+					</div>
+					<div class="weekImg">
+						<figure>
+							<img id="img1" src="images/screenshot_sublime_week1.png" alt="Sublime editor screenshot" title="Sublime Editor Screenshot"> <!-- Sublime screenshot --> 
+								
+							<figcaption id="img1caption">Sublime Editor (folder structure on left)
+									<small>Screenshot &copy; <b>Louie Birkett</b></small>
+							</figcaption>
+					</figure>
+					</div>
+				</div>
+				
+				<div class="weekTitle">
+							 <!-- Week 2-->
+							<div id="week2">
+								<div class="weekTitleFont">
+									<b>Week 2 </b>- HTML Markup Basics
+								</div>
+								<div class="published">
+								Published on <time datetime="2022-10-14"><b>Friday, October 14</b></time>
+								</div> 
+							</div>
+				</div>
+
+				<div class="posts">
+					<div id="weekText">
+						<div id="week2text">
+							Week 2 was completed at the same time as week 1 as I felt confident enough to progress further.
+
+							The Lab index document that we were given provides a list of tasks that must be completed. I worked my way through this weeks necessary features and added them to my webpage.
+						</div>
+					</div>
+
+
+					<div id="weekImg"> <!-- week 2 index -->
+					<ol>
+						<li>page anchors added
+							<figure><img src="images/screenshot_sublime_anchors.png" width="500" height="100" alt="Page Anchors"> <!-- Page anchors screenshot-->
+								<figcaption>HTML code of page anchors
+									<small>Screenshot &copy; <b>Louie Birkett</b></small>
+								</figcaption>
+							</figure>
+						</li>
+
+						<li>publications added
+							<figure><img src="images/screenshot_sublime_publications.png" width="500" height="100" alt="Publication Posts"> <!-- publication screenshot-->
+								<figcaption>Publication Posts
+									<small>Screenshot &copy; <b>Louie Birkett</b></small>
+								</figcaption>
+							</figure>
+						</li>
+						<li>Lists added within a Post</li>
+						<li>Images added using <code>img</code></li>
+						<li>email links added
+							<figure><img src="images/screenshot_sublime_email.png" alt="Screenshot of email redirect"></figure>
+						</li>
+
+					</ol>
+				</div>
+				</div>
+				<a class="backToTop" href="#top">back to top</a>
+
+				
+
+				 <!-- Week 3 --> 
+					<div class="weekTitle">
+							<div id="week3">
+								<div class="weekTitleFont">
+									<b>Week 3</b> - Further Validation
+								</div>
+
+								<div class="published">
+								Published on <time datetime="2022-11-17"><b>Thursday, November 17</b></time>
+								</div> 
+							</div> 	
+					</div>
+
+					<div class="posts">
+									<div class="weekText">
+										This week my main focus was validating my HTML and CSS code using W3C Code Validator. It is important to validate your HTML and CSS Code throughout the development process to ensure you're complying and meeting all of the developmental / industry standards.
+										<div id="week3Text">
+											<ul>
+												<li>First off, I visited the W3C validator site and provided the source for my code.</li>
+												<!-- <div id="week3_spacing"> -->
+												<li>The Validator provided me with some helpful feedback. As you can see there were A LOT of errors in my code. My next task was to fix these.
+												<br>
+												Most of the errors that the validator detected were due to elements being nested within other elements that they shouldn't be. One example was the 'li' element being within an 'aside'. It took me a while to think of a fix, but I eventually discovered that the 'aside' element wasn't even necessary for the layout of my webpage. So I simply removed it. This fixed the validation error.
+												</li>
+											</ul>
+										</div>
+									</div>
+
+					<div class="weekImg">
+						<figure>
+							<img id="validationscreenshot2" src="images/screenshot_validation_2.png" alt="Validation Screenshot" title="W3C Validation Screenshot"> 
+								
+							<figcaption id="img3caption">W3C Validator
+									<small>Screenshot &copy; <b>Louie Birkett</b></small>
+							</figcaption>
+						</figure>
+					</div>
+
+					<div class="weekText">
+						<div id="week3ValidationText">
+							<ul> 
+								<li>I Managed to remove all of the erorrs and warnings that the validator gave me. This meant that my HTML code met all of the industry standards when it comes to code format.</li>
+								
+								<li>Furthermore, I decided to validate my CSS code to ensure everything was correct, Unfortunately it threw back an error, Although, the error was simply a syntax error which was a quick and simple fix. Within my CSS code there was a stray curly bracket which I must have missed when removing a piece of code. I simply removed it and ran it back through the CSS Validator</li>
+								
+								<li>I managed to fix the CSS code and now my website code throws zero errors when put through the W3C Validators</li>
+							</ul>
+						</div>
+
+					</div>
+
+					<div class="weekImg">
+						<figure>
+							<img id="validationscreeshot3" src="images/screenshot_validation_3.png" alt="Validation Screenshot" title="W3C Validation Screenshot"> 				
+							<figcaption>Screenshot of Succesful Validation
+									<small>Screenshot &copy; <b>Louie Birkett</b></small>
+							</figcaption>
+						</figure>
+
+
+						<figure>
+							<img src="images/screenshot_css_validator.png" alt="CSS Validation">
+							<figcaption>Screenshot of Unsuccessful Validation
+									<small>Screenshot &copy; <b>Louie Birkett</b></small>
+							</figcaption>
+						</figure>
+
+						<figure>
+							<img src="images/screenshot_css_validator_2.png" alt="CSS Validation 2">
+							<figcaption>Screenshot of Successful Validation
+									<small>Screenshot &copy; <b>Louie Birkett</b></small>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<a class="backToTop" href="#top">back to top</a>
+
+					<!-- Week 4 -->
+					<div class="weekTitle">	
+							<div id="week4">
+								<div class="weekTitleFont">
+									<b>Week 4</b> - CSS Styling
+								</div>
+								<div class="published">
+								Published on <time datetime="2022-11-18"><b>Friday, November 18</b></time>
+								</div> 
+							</div> 	
+					</div>
+					<div class="posts">
+						<div class="weekText">
+							<ul>
+								<li>This weeks focus was on styling my webpage using CSS so that it was more visually pleasing. <br>
+									Fortunately, I already have experience using HTML and CSS so my main priority was simply refreshing my memory. I did this by using W3Schools which provides details on all HTML and CSS Elements and the correct way to use them.
+								</li>
+								
+								<li>My First task was to add some Styling to my webpage Body. I chose a suitable background colour and a font colour that complimented it; i chose to use a slightly off white colour for the font as the background colour was a deep space grey colour, I felt this worked well. Next, I chose the font family of Georgia and set the typface to Serif (the screenshot says sans-serif but this was just a mistake on my part, this has been changes to serif). I also set the font size along with the line height.</li>
+								
+								<li>Next, I began styling the buttons and links nested within my webpage. These changes are only cosmetic as I felt the User Experience of the web interface was a but rough round the edges. I did some research on W3Schools on 'border-radius' as I forgot how to style the rounded corners. After doing my research I then implemented the changes, adding different background colours when the user hovers over the link along with removing any text decoration</li>
+							</ul>
+						</div>
+						<div class="weekImg">
+							<figure>
+								<img src="images/screenshot_body_css.png" alt="Body Styling Screenshot">
+								<figcaption>Screenshot of CSS Styling
+									<small>Screenshot &copy; <b>Louie Birkett</b></small>
+								</figcaption>
+							</figure>
+							<figure>
+								<img src="images/screenshot_css_menu.png" alt="Menu Styling Screenshot">
+								<figcaption>Screenshot of CSS Styling Menu
+									<small>Screenshot &copy; <b>Louie Birkett</b></small>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<a class="backToTop" href="#top">back to top</a>
+
+					<!-- Week 5 -->
+					<div class="weekTitle">
+						<div id="week5">
+							<div class="weekTitleFont">	
+							<b>Week 5</b> - Further CSS Styling
+							</div>
+							<div class="published">
+								Published on <time datetime="2022-11-21"><b>Monday, November 21</b></time>
+							</div>
+						</div>
+					</div>
+					<div class="posts">
+						<div class="weekText">
+							<ul>
+								<li>During Week 5, I continued to style my webpage further using CSS. I ran into many challenges throughout and found it extremely educational trying to fix the changes which caused catastrophic errors to my webpage. My previous experience with web development incorporated the use of JavaScript. However during the development of our webpages we are not allowed to use JavaScript. Styling a webpage using only CSS was my first learning curve as many of the styling ideas I had in mind quickly got thrown out as I realised these used JavaScript.</li>
+								
+								<li>My first task was to style the main header and navigation options at the top of my page. For the main 'Learning Journal' header I chose to use a font size of 6.25em along with a contrasting colour of Orange for the text. For the page navigation I chose to use a border-radius of 20px and I chose a slightly brighter background colour for when the user hovers over each page.</li>
+									
+								<li>
+									<h3>What were some of the challenges I faced and how did I get over them?</h3>
+									<br>
+									One of the challanges I faced while styling the top of my webpage was getting the text to center. I tried so many times to center each individual aspect of the header and navigation bar and every time it wouldnt perform how I expected it to. I had a deep look through my code and quickly realised that this was due to the way I had my code laid out and how I displayed each area of my code
+									<br> <br>
+									I started looking at how I should layout the webpage and quickly started implimenting a <strong>grid layout</strong>. this allowed me to then separate the layout into rows and columns. the Learning Journal page is split into 2 columns which allowed me to add text blocks along with images into each column. It also allowed me to center the text relative to where it was located within the layout. Understanding how the grid layout worked was a challenge as I found it hard working out how to position elements relative to their columns. I used W3Schools and the Learning Index to help, eventually I got it down and now everything is positioned and working appropriately.
+								</li>
+							</ul>
+						</div>
+						<div class="weekImg">
+							<figure>
+								<img id="cssNavigationScreenshot" src="images/screenshot_css_navigation.png" alt="CSS Styling Navigation">
+								<figcaption>Screenshot of CSS Styling Navigation and Header
+									<small>Screenshot &copy; <b>Louie Birkett</b></small>
+								</figcaption>
+							</figure>
+
+							<figure>
+								<img id="cssWeeklypostScreenshot" src="images/screenshot_css_weeklyposts.png" alt="CSS Styling Weekly Posts">
+								<figcaption>Screenshot of CSS Styling of weekly posts
+									<small>Screenshot &copy; <b>Louie Birkett</b></small>
+								</figcaption>
+							</figure>
+
+							<figure>
+								<img id="gridScreenshot" src="images/screenshot_grid.png" alt="CSS Grid Layout">
+								<figcaption>Screenshot of CSS Code Grid
+									<small>Screenshot &copy; <b>Louie Birkett</b></small>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<a class="backToTop" href="#top">back to top</a>
+
+					<!-- Week 6 -->
+					<div class="weekTitle">
+						<div id="week6">
+							<div class="weekTitleFont">
+								<b>Week 6</b> - Responsive Webpage
+							</div>
+							<div class="published">
+								Published on <time datetime="2022-11-23"><b>Wednesday, November 23</b></time>
+							</div>
+						</div>
+					</div>
+
+					<div class="posts">
+						<div class="weekText">
+									<h3>This week I began making my webpage responsive.</h3>
+								<ul>
+									<li>
+										
+										Creating a webpage that is responsive to the user screen size is a concept I have not visited before. Ensuring my webpage is responsive while also following the correct standards was a difficult task. This is where I feel I faced the most challenges. 
+									</li>
+									<li>
+										I began by reading through the the provided Lab Index to see how I should approach making my webpage responsive. The previous week I had succesfully formatted my webpage using the Grid Layout which was helpful as now all I had to do this week was incorporate Media Queries into my CSS.
+										<br>
+										The use of Media Queries allows your webpage to become responsive when it detects a change on the users device. One example of this is changing the layout and presentation of your webpage depending on the size of the users viewport.
+									</li>
+									<li>
+										My choice of incorporating 2 columns within my grid layout allowed me to make a 'simple' change in my CSS in order for it to display appropriately on a smaller viewport (such as a mobile device). I implemented a media quiery that states if the width of the screen exceeds 768px (the greatest breakpoint of a tablet) the webpage will switch to its 'large screen' version and display the full two columns. However, if the pixels go below 768, the webpage switches to a version which displays everything within one column, using the block display. 
+									</li>
+									<li>
+										I ran into some problems when it came to creating the mobile version. 
+										</li>
+										<li>
+										The first problem I faced was scaling all of my fonts down equally across my website to the correct size so that they look how they were intended too. Looking through my code and by using W3Schools, I quickly realised I needed to switch all of my font sizes to EM  and not PX, this helps scale them correctly across musltiple devices and browsers. 
+										</li>
+										<li>
+										Furthermore, Another challenge I faced was when I ran into another scaling problem when using my webpage on mobile. Due to one of my elements using a Grid display when it was not nececessary, my website would load zoomed in and the only way to remove the horizontal scrolling along with viewing the webpage so that it fit within the devices viewport was by manually zooming the page out. This simple error took <b>DAYS</b> to figure out, after hours of looking through posts on Stack Overflow and reading my code back to front, I decided the only way I was going to identify the problem was to manually change each elements styling one by one. I knew this was going to take a while as my CSS had over 400 lines of code but I knew this technique would identify the root cause. Eventually after an hour or so of nitpicking my code, I found out the cuase of the bug was that the weekly posts class was styled 'grid' and not 'inline' causing the webpage to overflow out of the viewport and not scale correctly.
+										
+										This simple change fixed EVERYTHING and my website now was fully responsive on a number of different devices.
+										<br>
+										I used the chrome developer tools in order to see how responsive my webage was across different screen sizes. 
+										<br>
+										I also viewed my webpage on different browsers, including Safari, Chrome and Firefox so that I knew how it appeared for users that may not be viewing the webpage how I may have been during development.
+									</li>
+								</ul>
+							</div>
+
+						<div class="weekImg">
+							<figure>
+								<img src="images/screenshot_sublime_mediaquery.png" alt="Screenshot of code showing Media Query" title="Sublime Editor Screenshot"> 
+									
+								<figcaption>Sublime Editor - Media Query Code
+										<small>Screenshot &copy; <b>Louie Birkett</b></small>
+								</figcaption>
+							</figure>
+
+							<figure>
+								<img id="mediaQueryScreenshotMobile" src="images/screenshot_responsive_mobile.png" alt="Screenshot of Responsive Mobile layout" title="Sublime Editor Screenshot"> 
+									
+								<figcaption>Responsive Mobile Layout
+										<small>Screenshot &copy; <b>Louie Birkett</b></small>
+								</figcaption>
+							</figure>
+
+							<figure>
+								<img id="mediaQueryScreenshotTablet" src="images/screenshot_responsive_tablet.png" alt="Screenshot of Responsive tablet layout" title="Sublime Editor Screenshot"> 
+									
+								<figcaption>Responsive Tablet Layout
+										<small>Screenshot &copy; <b>Louie Birkett</b></small>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+					<a class="backToTop" href="#top">back to top</a>
+
+					 <!-- Week 7 -->
+					 <div class="weekTitle">
+						<div id="week7">
+							<div class="weekTitleFont">
+								<b>Week 7</b> - Tutorial Webpage
+							</div>
+
+							<div class="published">
+							Published on <time datetime="2022-12-08"><b>Wednesday, December 8</b></time>
+							</div> 
+						</div> 			
+					</div>
+
+					<div class="posts">
+						<div class="weekText">
+								<h3>Week 7 I began to work on the second part of the assignment. The tutorial webpage.</h3>
+							<ul>
+								<li>I started off by creating a simple wireframe which allowed me to begin planning how my tutorial page was going to look. I used a website called Mockflow which I have previously used before. Mockflow provides the necessary tools to create wireframes quickly while also providing  high level of detail. </li>
+								<li>
+									The Wireframe I created includes a simple mock up of how my tutorial page will look. I made my wireframe with a larger viewport in mind as I believe this will be the hardest layout to design and develop. After I successfully develop the full layout, I can then begin removing unnecessary details and begin the rearrangement for the mobile first design. 
+								</li>
+
+								<li>
+									I began the work on my code following the wireframe design I created. I chose to use the same stylesheet as the index page and gave myself a section to style the page. This time round I remembered to create the webpage with a mobile first approach, an error I made with the index page. I used a range of media queries to change the Study Skill Containers depending on the viewport size I also changed the display from block to flex (a concept the lab index taught me).
+								</li>
+
+								<li>
+									Throughout the development phase I was using a mix of resources in order to help create an accurate representation of my design. I used the Lab Index while also using W3Schools, Stack overflow (to help with errors) and the MDN Web Docs. After a couple hours of work I managed to create a responsive tutorial webpage for large and small viewports. 
+								</li>
+
+								
+							</ul>
+
+							<figure>
+								<img src="images/screenshot_tutorial_large.png" alt="Screenshot of Large Viewport">
+								<img id="tutorial_mobile" src="images/screenshot_tutorial_small.png" alt="Screenshot of Small Viewport">
+								<figcaption> Screenshot of Responsive webpage
+									<small>Screenshot &copy; <b>Louie Birkett</b></small>
+								</figcaption>
+							</figure>
+
+						</div>
+
+						<div class="weekImg">
+							<figure>
+								<img src="images/screenshot_wireframe_tutorial.png" alt="Wireframe Screenshot">
+								<figcaption>Screenshot of Wireframe
+									<small>Screenshot &copy; <b>Louie Birkett</b></small>
+								</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images/screenshot_tutorialcode.png" alt="Screenshot of Tutorial webpage code">
+								<figcaption>Screenshot of Code
+									<small>Screenshot &copy; <b>Louie Birkett</b></small>
+								</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images/screenshot_tutorialcss.png" alt="CSS Screenshot for Tutorial Webpage">
+								<figcaption>Screenshot of CSS
+									<small>Screenshot &copy; <b>Louie Birkett</b></small>
+								</figcaption>
+
+							</figure>
+						</div>
+					</div>
+					<a class="backToTop" href="#top">back to top</a>
+
+					
+
+					<!-- Week 8 -->
+					<div class="weekTitle">
+						<div id="week8">
+							<div class="weekTitleFont">
+								<b>Week 8</b> - Contact Page
+							</div>
+							<div class="published">
+								Published on <time datetime="2022-12-16"><b>Friday, Decemeber 16</b></time>
+							</div>
+						</div>
+					</div>
+
+					<div class="posts">
+						<div class="weekText">
+							<h3>This week I created the third and final webpage, The Contact Page</h3>
+							<ul>
+								<li>The contact page consists of a HTML Form which allows users of the website to provide feedback. While the webpage / form has no real processing capabilities, it allows me to understand how this element works. HTML Forms were a new concept to me so following the lab index was vital. Fortunately, I have experience with user input in other languages so understanding how it should work was not the issue, all I really had to do was understand the HTML syntax.</li>
+								<li>
+									So, following the lab index I managed to craft the contact page. Using elements such as fieldset, legend, label and input I successfully created my own form, which accepts user input. It has multiple required fields, some of which I added myself, which validate themselves upon submission ensuring the user has filled these fields. Furthermore, I used the same stylesheet before which provided the contact page and form with appropriate styling.
+								</li>
+							</ul>
+						</div>
+
+						<div class="weekImg">
+							<figure>
+								<img id="contactcode" src="images/screenshot_contact_code.png" alt="Contact Page Code">
+								<figcaption>Screenshot of Contact page Code
+									<small>Screenshot &copy; <b>Louie Birkett</b></small>
+								</figcaption>
+							</figure>
+
+							<figure>
+								<img id="contactcss" src="images/screenshot_contact_css.png" alt="Screenshot of Contact page CSS code">
+								<figcaption> Screenshot of Contact page CSS
+									<small>Screenshot &copy; <b>Louie Birkett</b> </small>
+								</figcaption>
+							</figure>
+						</div>
+
+						<div class="weekImg">
+							<figure>
+								<img id="contactmobile" src="images/screenshot_contact_mobile.png" alt="Screenshot of Mobile Viewport">
+								<figcaption> Screenshot of Mobile version
+									<small>Screenshot &copy; <b>Louie Birkett</b></small>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="weekText">
+							<h3>The Contact Page styling follows the same as the other pages. It also is fully responsive to viewport changes.</h3>
+						</div>
+					</div>
+
+					<div class="validationContainer">
+						<div id="validation">
+							<h2>Each webpage successfully validates</h2>
+							<img src="images/screenshot_css_validator_3.png">
+							<img src="images/screenshot_html_validator.png">
+						</div>
+					</div>
+
+
+
+
+					<div class="references">
+						<h2>References</h2>
+						<ul>
+							<li><a href="http://jh1033.brighton.domains/ci435/tutorials/index.html">Learning Journal Lab Index</a></li>
+							<li><a href="https://validator.w3.org/">W3C HTML Validator</a></li>
+							<li><a href="https://www.w3schools.com/">W3Schools HTML & CSS</a></li>
+							<li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
+							<li><a href="https://mockflow.com/">Mockflow Wireframes</a></li>
+							<li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs	</a></li>
+						</ul>
+						<footer> <!-- back to top and contact -->
+							<a class="backToTop" href="#top">back to top</a>
+										<br>
+							Designed and Engineered by <b>Louie Birkett</b> <a href="mailto:l.birkett3@brighton.ac.uk">contact email</a>
+						</footer>
+					</div>
+				</main>
+			</div>
+		</body>
+	</html>
+
+
+
+
+
+
+
+<!-- Weekly Post Template -->
+
+<!-- 
+<div class="weekTitle">
+						<div id="week1">
+							<div class="weekTitleFont">
+								<b>Week </b>
+							</div>
+
+							<div class="published">
+							Published on <time datetime=""><b>Day, Month & Date</b></time>
+							</div> 
+						</div> 			
+</div>
+
+<div class="posts">
+				<div class="weekText">
+					Post Explination
+					<ul>
+						<li>multiple explinations</li>
+					</ul>
+</div>
+
+				<div class="weekImg">
+					<figure>
+						<img id="" src="" alt="" title="Sublime Editor Screenshot"> 
+							
+						<figcaption id="img?caption">Sublime Editor (folder structure on left)
+								<small>Screenshot &copy; <b>Louie Birkett</b></small>
+						</figcaption>
+				</figure>
+				</div>
+			</div> 
+
+-->
