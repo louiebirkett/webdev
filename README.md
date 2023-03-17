@@ -1,2 +1,4 @@
 # webdev
-Mg web dev code
+the codebase for 
+1587.brighton.domains/ci435/index.html
+
